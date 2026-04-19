@@ -3,6 +3,7 @@ import ProfileCard from "./components/profileCard";
 import ProjectCard from "./components/projectCard"
 import Vite from "../src/assets/vite.svg"
 import HeroReact from "../src/assets/react.svg"
+
 function App() {
   return (
     <>

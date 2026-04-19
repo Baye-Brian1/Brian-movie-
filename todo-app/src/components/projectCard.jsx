@@ -1,9 +1,21 @@
 import React from "react";
 import HeroReact from "../assets/react.svg";
+import Counter from "./counter";
+import FunctionClick from "./functionClick";
+import EventBind from "./EventBind"
+import HookPract from "./HookPract";
+import Todo from "./todo"
+import TodoFormOne from "./TodoPrac";
 
 const projectCard = () => {
   return (
-    <div className="max-w-full p-4 bg-black min-h-screen flex items-center">
+    <div className="max-w-full p-4 bg-black min-h-screen gap-y-2 flex flex-col items-center">
+       <TodoFormOne/>
+       <HookPract/>
+       <EventBind/>
+       <Counter />
+       <FunctionClick/>
+       <Todo/>
       <div className="w-[40%] border border-white/10 rounded-2xl p-1 overflow-hidden group cursor-pointer">
         <div className="relative h-48 w-full rounded-xl border border-white/5 bg-[#0a0a0a] flex items-center justify-center">
           <div

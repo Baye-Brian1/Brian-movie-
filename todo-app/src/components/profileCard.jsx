@@ -1,6 +1,7 @@
 import React from "react";
 
-function profileCard({image,name, role}) {
+
+function profileCard({ image, name, role }) {
   return (
     <section className="w-full m-auto justify-center items-center flex">
       <div
@@ -12,6 +13,7 @@ function profileCard({image,name, role}) {
         <p>{role}</p>
         <button className="bg-white text-black px-8 py-1">Follow me</button>
       </div>
+     
     </section>
   );
 }
